@@ -45,16 +45,3 @@ y = False
 print(f"x and y: {x and y}")              # False
 print(f"x or y: {x or y}")                # True
 print(f"not x: {not x}")                  # False
-
-# Operator Hitung (Penggunaan Tipe Data)
-# Menggunakan tipe data untuk menghitung hasil akhir
-jumlah_barang = 5
-harga_per_barang = 10000
-
-total_harga = jumlah_barang * harga_per_barang
-print(f"Total Harga: {total_harga}")
-
-# Menggunakan operator untuk menghitung diskon
-diskon = 0.1  # 10% diskon
-harga_setelah_diskon = total_harga - (total_harga * diskon)
-print(f"Harga Setelah Diskon: {harga_setelah_diskon}")
